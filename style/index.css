@@ -1,1 +1,179 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset ends */
+
+body{
+   background-color: #2a9d8f;
+   font-family: 'Roboto Condensed';
+   letter-spacing: 1px;
+   
+}
+
+.container{
+    margin: 0 auto;
+
+}
+
+nav{
+    background-color: #264653;
+    padding: 50px;
+    color: #e9c46a;
+    font-size: 2.5em;
+    
+}
+
+nav button{
+    background-color: #e76f51;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border: 1px #e76f51;
+    float: left;
+    font-family: 'Roboto Condensed';
+}
+
+nav button:hover{
+    background-color: #e9c46a;
+  color: white;
+}
+
+.intro{
+    display: flex;
+
+}
+
+
+.portfolio{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.portfolio p{
+    text-align: center;
+    margin-left: 10%;
+    font-size: 1rem;
+}
+
+.portfolio div img{
+    width: 300px;
+    padding-right: 20%;
+  padding-left: 20%;
+    margin: 5%;
+}
+
+
+footer{
+    background-color: #264653;
+    text-align: center;
+    padding: 50px;
+    color: #e9c46a;
+    font-size: 1.5em;
+}
+
+.footer-button{
+    background-color: #e76f51;
+    color: white;
+    padding: 10px;
+    border: hidden;
+    height: 100%;
+    width: 20%;
+    font-family: 'Roboto Condensed';
+
+}
+
+.footer-button:hover{
+    background-color: #e9c46a;
+    color: white;
+}
+
+.header-button{
+    background-color: #e76f51;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    padding: 15px;
+    height: 15%;
+    width: 20%;
+    border: hidden;
+    font-family: 'Roboto Condensed';
+}
+
+h1{
+    font-weight: bold; 
+    font-size: 2.5em;
+    color: #e9c46a;
+    text-align: center;
+    padding-right: 30px;
+}
+
+#header-left{
+    border-radius: 50%;
+    align-items: center;
+    width: 25%;
+    height: auto;
+    float: left;
+    margin: 20px;
+margin-left: 100px;
+    
+
+}
+
+#header-right{
+    left: 60%;
+    padding: 20px 10%;
+}
+
+#header-right p{
+    color: #f4a261;
+    font-size: 1.2em;
+}

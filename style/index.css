@@ -199,43 +199,48 @@ margin-left: 100px;
    nav {
        padding-bottom: 200px;
    }
+
+   #nav-title {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 250px;
+   }
    
-    nav button{
-        background-color: green;
+    nav button {
         text-align: center;
        display: flex;
         justify-content: space-between;
         width: 70%;
         float: right;  
+        font-size: 1.2rem;
         }
 
-    #header-left {
+    /* #header-left {
         background-color: black;
-        margin-top: 350px;
+        margin-top: 550px;
+       
+        margin-right: 100px;
+
         
-
-
-    }
+    } */
 
    
 #header-right{
 text-align: center;
-margin-top: 20%;
-margin-right: 20%;
 width: 100%;
+padding-right: 20px;
 }  
+
+h1{
+    padding-left: 100px;
+}
    
 .header-button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
     width: 50%;
-    padding-left: 1em;
-    padding-right: 1em;  
+    padding-left: 5px;
+    padding-right: 5px;  
 } 
-
-.intro
-
 
 
 .portfolio{
